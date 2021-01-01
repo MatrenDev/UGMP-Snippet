@@ -1,0 +1,426 @@
+{
+	//Weather
+	"(weatherHandlingType, weatherType, colourFilter, Float:windyness)": 
+	{
+		"prefix": "CreateExtraWeather",
+		"body": [
+		"CreateExtraWeather(weatherHandlingType, weatherType, colourFilter, Float:windyness);"
+		],
+	},
+	"(extraweatherid)": 
+	{
+		"prefix": "DestroyExtraWeather",
+		"body": [
+		"DestroyExtraWeather(extraweatherid);"
+		],
+	},
+	"(extraweatherid, hour, param, red, green, blue)": 
+	{
+		"prefix": "SetExtraWeatherParam_RGB",
+		"body": [
+		"SetExtraWeatherParam_RGB(extraweatherid, hour, param, red, green, blue);"
+		],
+	},
+	"(extraweatherid, hour, param, Float:red, Float:green, Float:blue, Float:alpha)": 
+	{
+		"prefix": "SetExtraWeatherParam_RGBA",
+		"body": [
+		"SetExtraWeatherParam_RGBA(extraweatherid, hour, param, Float:red, Float:green, Float:blue, Float:alpha);"
+		],
+	},
+	"(extraweatherid, hour, param, Float:fParam)": 
+	{
+		"prefix": "SetExtraWeatherParam_Float",
+		"body": [
+		"SetExtraWeatherParam_Float(extraweatherid, hour, param, Float:fParam);"
+		],
+	},
+	"(extraweatherid, hour, param, nParam)": 
+	{
+		"prefix": "SetExtraWeatherParam_Int",
+		"body": [
+		"SetExtraWeatherParam_Int(extraweatherid, hour, param, nParam);"
+		],
+	},
+	"(extraweatherid, flags)": 
+	{
+		"prefix": "SetExtraWeatherParam_Flags",
+		"body": [
+		"SetExtraWeatherParam_Flags(extraweatherid, flags);"
+		],
+	},
+	"(extraweatherid, Float:windyness)": 
+	{
+		"prefix": "SetExtraWeatherParam_Windyness",
+		"body": [
+		"SetExtraWeatherParam_Windyness(extraweatherid, Float:windyness);"
+		],
+	},
+	"ToggleMoon(enable)": 
+	{
+		"prefix": "ToggleMoon",
+		"body": [
+		"ToggleMoon(enable);"
+		],
+	},
+	"ToggleStars(enable)": 
+	{
+		"prefix": "ToggleStars",
+		"body": [
+		"ToggleStars(enable);"
+		],
+	},
+	"ToggleLowClouds(enable)": 
+	{
+		"prefix": "ToggleLowClouds",
+		"body": [
+		"ToggleLowClouds(enable);"
+		],
+	},
+	"ToggleFluffyClouds(enable)": 
+	{
+		"prefix": "ToggleFluffyClouds",
+		"body": [
+		"ToggleFluffyClouds(enable);"
+		],
+	},
+	"ToggleRainbow(enable)": 
+	{
+		"prefix": "ToggleRainbow",
+		"body": [
+		"ToggleRainbow(enable);"
+		],
+	},
+	"SetCurrentSeason(season)": 
+	{
+		"prefix": "SetCurrentSeason",
+		"body": [
+		"SetCurrentSeason(season);"
+		],
+	},
+	"TogglePlayerMoon(playerid, enable)": 
+	{
+		"prefix": "TogglePlayerMoon",
+		"body": [
+		"TogglePlayerMoon(playerid, enable);"
+		],
+	},
+	"TogglePlayerStars(playerid, enable)": 
+	{
+		"prefix": "TogglePlayerStars",
+		"body": [
+		"TogglePlayerStars(playerid, enable);"
+		],
+	},
+	"TogglePlayerLowClouds(playerid, enable)": 
+	{
+		"prefix": "TogglePlayerLowClouds",
+		"body": [
+		"TogglePlayerLowClouds(playerid, enable);"
+		],
+	},
+	"TogglePlayerFluffyClouds(playerid, enable)": 
+	{
+		"prefix": "TogglePlayerFluffyClouds",
+		"body": [
+		"TogglePlayerFluffyClouds(playerid, enable);"
+		],
+	},
+	"TogglePlayerRainbow(playerid, enable)": 
+	{
+		"prefix": "TogglePlayerRainbow",
+		"body": [
+		"TogglePlayerRainbow(playerid, enable);"
+		],
+	},
+	"SetPlayerSeason(playerid, season)": 
+	{
+		"prefix": "SetPlayerSeason",
+		"body": [
+		"SetPlayerSeason(playerid, season);"
+		],
+	},
+	"ToggleSASunPositionFormula(enable)": 
+	{
+		"prefix": "ToggleSASunPositionFormula",
+		"body": [
+		"ToggleSASunPositionFormula(enable);"
+		],
+	},
+	"ToggleSASunPositionFormula_Pl(playerid, enable)": 
+	{
+		"prefix": "ToggleSASunPositionFormula_Pl",
+		"body": [
+		"ToggleSASunPositionFormula_Pl(playerid, enable);"
+		],
+	},
+	"IsSASunPositionFormulaEnabled(playerid)": 
+	{
+		"prefix": "IsSASunPositionFormulaEnabled",
+		"body": [
+		"IsSASunPositionFormulaEnabled(playerid);"
+		],
+	},
+	//Cars
+	"(vehicleid, color, red, green, blue)": 
+	{
+		"prefix": "ChangeVehicleColorRGB",
+		"body": [
+		"ChangeVehicleColorRGB(vehicleid, color, red, green, blue);"
+		],
+	},
+	"(vehicleid, color, enable)": 
+	{
+		"prefix": "ToggleVehicleColorRGB",
+		"body": [
+		"ToggleVehicleColorRGB(vehicleid, color, enable);"
+		],
+	},
+	"(vehicleid, color)": 
+	{
+		"prefix": "ChangeVehiclePearlColor",
+		"body": [
+		"ChangeVehiclePearlColor(vehicleid, color);"
+		],
+	},
+	"(vehicleid, red, green, blue)": 
+	{
+		"prefix": "ChangeVehiclePearlColorRGB",
+		"body": [
+		"ChangeVehiclePearlColorRGB(vehicleid, red, green, blue);"
+		],
+	},
+	"(component)": 
+	{
+		"prefix": "GetVehicleComponentTypeEx",
+		"body": [
+		"GetVehicleComponentTypeEx(component);"
+		],
+	},
+	//Radio
+	"(vehicleid, station)": 
+	{
+		"prefix": "SetVehicleRadioStation",
+		"body": [
+		"SetVehicleRadioStation(vehicleid, station);"
+		],
+	},
+	"(vehicleid)": 
+	{
+		"prefix": "GetVehicleRadioStation",
+		"body": [
+		"GetVehicleRadioStation(vehicleid);"
+		],
+	},
+	"(station, str[], len = sizeof(str))": 
+	{
+		"prefix": "GetRadioStationName",
+		"body": [
+		"GetRadioStationName(station, str[], len = sizeof(str));"
+		],
+	},
+	"EnableRadioAutoTune(enable)": 
+	{
+		"prefix": "EnableRadioAutoTune",
+		"body": [
+		"EnableRadioAutoTune(enable);"
+		],
+	},
+	"IsRadioAutoTuneEnabled()": 
+	{
+		"prefix": "IsRadioAutoTuneEnabled",
+		"body": [
+		"IsRadioAutoTuneEnabled();"
+		],
+	},
+	"(playerid, vehicleid, oldstation, newstation)": 
+	{
+		"prefix": "OnPlayerChangeRadio",
+		"body": [
+		"OnPlayerChangeRadio(playerid, vehicleid, oldstation, newstation);"
+		],
+	},
+	"TogglePlayerNightVision(playerid, enable)": 
+	{
+		"prefix": "TogglePlayerNightVision",
+		"body": [
+		"TogglePlayerNightVision(playerid, enable);"
+		],
+	},
+	"TogglePlayerInfraRed(playerid, enable)": 
+	{
+		"prefix": "TogglePlayerInfraRed",
+		"body": [
+		"TogglePlayerInfraRed(playerid, enable);"
+		],
+	},
+	"TogglePlayerCCTV(playerid, enable)": 
+	{
+		"prefix": "TogglePlayerCCTV",
+		"body": [
+		"TogglePlayerCCTV(playerid, enable);"
+		],
+	},
+	"TogglePlayerFogOverlay(playerid, enable)": 
+	{
+		"prefix": "TogglePlayerFogOverlay",
+		"body": [
+		"TogglePlayerFogOverlay(playerid, enable);"
+		],
+	},	
+	"(playerid, enable, darknessAlpha)": 
+	{
+		"prefix": "TogglePlayerDarknessFilter",
+		"body": [
+		"TogglePlayerDarknessFilter(playerid, enable, darknessAlpha);"
+		],
+	},	
+	"TogglePlayerVideoCameraOverlay(playerid, enable)": 
+	{
+		"prefix": "TogglePlayerVideoCameraOverlay",
+		"body": [
+		"TogglePlayerVideoCameraOverlay(playerid, enable);"
+		],
+	},	
+
+	"IsValidVehicleModel(modelid)": 
+	{
+		"prefix": "IsValidVehicleModel",
+		"body": [
+		"IsValidVehicleModel(modelid);"
+		],
+	},	
+	"GetNumVehicleModels()": 
+	{
+		"prefix": "GetNumVehicleModels",
+		"body": [
+		"GetNumVehicleModels();"
+		],
+	},	
+	"GetValidVehicleModelAt(index)": 
+	{
+		"prefix": "GetValidVehicleModelAt",
+		"body": [
+		"GetValidVehicleModelAt(index);"
+		],
+	},	
+	"(index, &modelid, &vehtype, &modifyas, name[], namelen = sizeof(name))": 
+	{
+		"prefix": "GetValidVehicleModelAtEx",
+		"body": [
+		"GetValidVehicleModelAtEx(index, &modelid, &vehtype, &modifyas, name[], namelen = sizeof(name));"
+		],
+	},	
+	"GetRandomVehicleModel()": 
+	{
+		"prefix": "GetRandomVehicleModel",
+		"body": [
+		"GetRandomVehicleModel();"
+		],
+	},	
+	"IsValidPedModel(modelid)": 
+	{
+		"prefix": "IsValidPedModel",
+		"body": [
+		"IsValidPedModel(modelid);"
+		],
+	},	
+	"GetNumPedModels()": 
+	{
+		"prefix": "GetNumPedModels",
+		"body": [
+		"GetNumPedModels();"
+		],
+	},	
+	"GetValidPedModelAt(index)": 
+	{
+		"prefix": "GetValidPedModelAt",
+		"body": [
+		"GetValidPedModelAt(index);"
+		],
+	},	
+	"GetRandomPedModel()": 
+	{
+		"prefix": "GetRandomPedModel",
+		"body": [
+		"GetRandomPedModel();"
+		],
+	},	
+	"GetWeaponHighestParentType(weapontype)": 
+	{
+		"prefix": "GetWeaponHighestParentType",
+		"body": [
+		"GetWeaponHighestParentType(weapontype);"
+		],
+	},	
+	"GetNumWeaponModels()": 
+	{
+		"prefix": "GetNumWeaponModels",
+		"body": [
+		"GetNumWeaponModels();"
+		],
+	},	
+	"GetValidWeaponModelAt(index)": 
+	{
+		"prefix": "GetValidWeaponModelAt",
+		"body": [
+		"GetValidWeaponModelAt(index);"
+		],
+	},	
+	"GetValidWeaponTypeAt(index)": 
+	{
+		"prefix": "GetValidWeaponTypeAt",
+		"body": [
+		"GetValidWeaponTypeAt(index);"
+		],
+	},	
+	"IsValidWeaponType(weapontype)": 
+	{
+		"prefix": "IsValidWeaponType",
+		"body": [
+		"IsValidWeaponType(weapontype);"
+		],
+	},	
+	"IsValidWeaponModel(modelid)": 
+	{
+		"prefix": "IsValidWeaponModel",
+		"body": [
+		"IsValidWeaponModel(modelid);"
+		],
+	},	
+	"GetRandomWeaponModel()": 
+	{
+		"prefix": "GetRandomWeaponModel",
+		"body": [
+		"GetRandomWeaponModel();"
+		],
+	},	
+	"GetRandomWeaponType()": 
+	{
+		"prefix": "GetRandomWeaponType",
+		"body": [
+		"GetRandomWeaponType();"
+		],
+	},	
+	"(const applicationID[])": 
+	{
+		"prefix": "InitialiseDiscordRichPresence",
+		"body": [
+		"InitialiseDiscordRichPresence(const applicationID[]);"
+		],
+	},	
+	"(const smallImageKey[], const smallImageText[], const largeImageKey[], const largeImageText[], const details[])": 
+	{
+		"prefix": "UpdateDiscordRichPresence",
+		"body": [
+		"UpdateDiscordRichPresence(const smallImageKey[], const smallImageText[], const largeImageKey[], const largeImageText[], const details[]);"
+		],
+	},
+	"ShutdownDiscordRichPresence()": 
+	{
+		"prefix": "ShutdownDiscordRichPresence",
+		"body": [
+		"ShutdownDiscordRichPresence();"
+		],
+	},
+}

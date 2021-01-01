@@ -1,0 +1,43 @@
+{
+    "name": "UGMPSnip",
+    "displayName": "UGMP Snippet",
+    "description": "Snippet created for the GTA Underground community.",
+    "publisher": "Matren",
+    "version": "0.0.2",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+		"languages": [
+            {
+                "id": "pawn",
+                "aliases": [
+                    "Pawn",
+                    "pawn"
+                ],
+                "extensions": [
+                    ".p",
+                    ".pwn",
+                    ".inc"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "pawn",
+                "scopeName": "source.pawn",
+                "path": "./syntaxes/Pawn.tmLanguage"
+            }
+        ],
+		"snippets": [
+            {
+                "language": "pawn",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
