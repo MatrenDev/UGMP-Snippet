@@ -1,4 +1,22 @@
 {
+	/*
+	Multiple parameteres (if the sequence of parameters does not repeat in other functions):
+	"(weatherHandlingType, weatherType, colourFilter, Float:windyness)": 
+	{
+		"prefix": "CreateExtraWeather",
+		"body": [
+		"CreateExtraWeather(weatherHandlingType, weatherType, colourFilter, Float:windyness);"
+		],
+	},
+	One parameter:
+	"ToggleFluffyClouds(enable)": 
+	{
+		"prefix": "ToggleFluffyClouds",
+		"body": [
+		"ToggleFluffyClouds(enable);"
+		],
+	},
+	*/
 	//Weather
 	"(weatherHandlingType, weatherType, colourFilter, Float:windyness)": 
 	{
