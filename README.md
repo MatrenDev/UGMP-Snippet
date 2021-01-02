@@ -8,7 +8,7 @@ Multiple parameteres (if the sequence of parameters does not repeat in other fun
 ```
 "(weatherHandlingType, weatherType, colourFilter, Float:windyness)": 
 {
-  "prefix": "CreateExtraWeather",
+	"prefix": "CreateExtraWeather",
 	"body": [
 	"CreateExtraWeather(weatherHandlingType, weatherType, colourFilter, Float:windyness);"
 	],
@@ -19,10 +19,10 @@ One parameter:
 ```
 "ToggleFluffyClouds(enable)": 
 {
-  "prefix": "ToggleFluffyClouds",
+	"prefix": "ToggleFluffyClouds",
 	"body": [
 	"ToggleFluffyClouds(enable);"
-  ],
+	],
 }
 ```
 
